@@ -1,0 +1,68 @@
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  color: #000;
+}
+
+/* Accent color */
+button {
+  background-color: #00b6c6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #00b6c6, #013550);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #efefef;
+  text-decoration: none;
+  margin-top: 2px;;
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;          /* no quotes */
+  box-sizing: border-box;
+  justify-content: flex-start;
+  transition: background 0.2s ease-in-out;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+
+.nav-link:hover {
+    color: #fff;
+    border-radius: 10px;
+    background: #2f2f2f;
+}
+
+.nav-link svg {
+  font-size: 25px;
+}
